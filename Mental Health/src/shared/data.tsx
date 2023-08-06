@@ -130,7 +130,7 @@ export const heroData: HeroProps = {
   callToAction: {
     text: 'Donate Now',
     href: '/donate',
-    icon: IconBrandTailwind, // Replace with a relevant icon for mental health donation
+    icon: IconBrandTailwind, 
     targetBlank: false,
     btnType: 'primary',
   },
@@ -178,102 +178,120 @@ export const faqsData: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Welcome to the Educate! Frequently Asked Questions section. Find answers to common questions about our organization and our mission to provide educational resources to less fortunate regions.',
+      'Welcome to the Mental Health Hub Frequently Asked Questions section. Find answers to common questions about our platform and our mission to provide mental health resources and support.',
     highlight: 'FAQS',
   },
   items: [
     {
-      title: 'Who are we and what do we do?',
-      description: `Educate! is a non-profit organization dedicated to providing educational resources from kindergarten to 12th grade for less fortunate regions and countries. Our mission is to empower young minds with knowledge and opportunities, enabling them to break the cycle of poverty through education.`,
+      title: 'What is Mental Health Hub?',
+      description: 'Mental Health Hub is a platform dedicated to providing mental health resources, support, and information for individuals seeking help and guidance in managing their mental well-being.',
     },
     {
-      title: 'What values and principles guide our work?',
-      description: `At Educate!, we uphold the values of accessibility, inclusivity, and sustainability. We believe that education is a fundamental right for every child, regardless of their background. Our principles include transparency, accountability, and a commitment to making a positive impact in the communities we serve.`,
+      title: 'How can I access mental health resources on the platform?',
+      description: 'All our mental health resources and support are freely accessible to anyone visiting the website. You can explore our blog articles, helpline information, and other resources without any subscriptions or fees.',
     },
     {
-      title: 'What is our experience?',
-      description: `With years of experience in the education sector, we have successfully collaborated with schools, educators, and local communities to deliver educational resources where they are needed most. We have a proven track record of providing quality learning materials and support to underprivileged students.`,
+      title: 'Is my personal information secure on Mental Health Hub?',
+      description: 'Yes, we prioritize user privacy and security. Any personal information shared with us is handled according to our strict privacy policy. We use encryption and secure protocols to safeguard your data.',
     },
     {
-      title: 'What is our team like?',
-      description: `Our team is composed of passionate and dedicated individuals who believe in the power of education to transform lives. From educators and content creators to logistics and operations specialists, each member of our team plays a crucial role in fulfilling our mission.`,
+      title: 'What mental health issues does Mental Health Hub cover?',
+      description: 'Mental Health Hub covers a wide range of mental health topics, including anxiety, depression, stress management, self-care practices, coping strategies, and more. Our goal is to address various mental health concerns and provide valuable insights and support.',
     },
     {
-      title: 'How do we engage with the community?',
-      description: `We engage with local communities through partnerships with schools, NGOs, and other educational organizations. We conduct needs assessments and actively involve community members in the development and implementation of our programs. We believe in collaborative efforts to ensure the sustainability of our initiatives.`,
+      title: 'Is the helpline available 24/7?',
+      description: 'Yes, our mental health helpline is available 24/7 to provide immediate assistance and support to individuals in distress. Trained mental health professionals are always ready to listen and help.',
     },
     {
-      title: 'What support channels do we offer?',
-      description: `We offer various support channels, including email support, community forums, and regional helplines. Our team is always available to address any questions or concerns related to our organization, donations, and the impact of our programs.`,
+      title: 'Can I volunteer to contribute to Mental Health Hub?',
+      description: 'Yes, we welcome volunteers who are passionate about mental health advocacy and support. You can contact us through the website to explore volunteer opportunities and ways to contribute to our mission.',
+    },
+    {
+      title: 'How can I support Mental Health Hub?',
+      description: 'You can support Mental Health Hub by spreading awareness about mental health, sharing our resources with others, and contributing to our cause through donations or volunteering.',
     },
   ],
 };
 
-// FAQS data 2
+// FAQS data 2 (Additional FAQs)
 export const faqsData2: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Welcome to the Educate! Frequently Asked Questions section. Below are some common questions and answers about our organization and the book donation process. If you have more questions, feel free to reach out to us!',
+      'Welcome to the Mental Health Hub Frequently Asked Questions section. Below are some common questions and answers about our platform and mental health support. If you have more questions, feel free to reach out to us!',
     highlight: 'FAQS',
   },
   items: [
     {
-      title: 'What do I need to start donating books?',
-      description: `To start donating books to Educate!, all you need is a collection of educational materials suitable for students from kindergarten to 12th grade. These can include textbooks, storybooks, educational games, and stationery items. You can check our donation guidelines on our website for more details.`,
-    },
-
-    {
-      title: 'What impact will my book donation have?',
-      description: `By donating books to Educate!, you are directly contributing to the education and future of students in less fortunate regions. Your donation can open doors to knowledge and opportunities that were previously unavailable to these students. Together, we can make a significant difference in their lives.`,
+      title: 'Is Mental Health Hub a substitute for professional therapy?',
+      description: 'Mental Health Hub provides valuable mental health information and resources, but it is not a substitute for professional therapy or medical advice. If you are experiencing severe mental health issues, we recommend seeking help from a licensed mental health professional.',
     },
     {
-      title: 'How can I get involved and help further?',
-      description: `We welcome volunteers, partners, and supporters who share our vision for education. You can get involved by participating in our community events, fundraising campaigns, or spreading awareness about our mission. Reach out to us via our contact page to explore collaboration opportunities.`,
+      title: 'How can I find relevant blog articles on specific mental health topics?',
+      description: 'You can explore our blog section, where articles are categorized based on mental health topics. You can use the search bar or browse the different categories to find articles that match your interests and concerns.',
     },
     {
-      title: 'What is the process of receiving and distributing donations?',
-      description: `Once we receive book donations, our team carefully inspects and categorizes them based on grade levels and subjects. We then work closely with local schools and educational institutions in less fortunate regions to distribute the books to students who need them the most. This ensures that the donations reach the intended beneficiaries effectively.`,
+      title: 'Are the blog articles written by mental health professionals?',
+      description: 'Our blog articles are written by a team of qualified mental health professionals, psychologists, and experienced writers. We ensure that all content is evidence-based and accurate.',
     },
     {
-      title: 'Is my donation tax-deductible?',
-      description: `Yes, Educate! is a registered non-profit organization, and donations are generally tax-deductible in accordance with local tax laws. You will receive a donation receipt for your contributions, which you can use for tax purposes.`,
+      title: 'Can I share my mental health journey on Mental Health Hub?',
+      description: 'Yes, we encourage individuals to share their mental health journeys and experiences to inspire others and break the stigma surrounding mental health. You can contact us if you wish to contribute your story.',
+    },
+    {
+      title: 'What other resources are available on Mental Health Hub?',
+      description: 'In addition to blog articles and the helpline, Mental Health Hub offers self-assessment tools, coping techniques, mindfulness exercises, and educational materials to help individuals manage their mental health.',
+    },
+    {
+      title: 'Does Mental Health Hub offer support for loved ones of individuals with mental health issues?',
+      description: 'Yes, we understand the importance of supporting loved ones of individuals facing mental health challenges. We provide resources and information to help friends and family better understand and assist their loved ones.',
+    },
+    {
+      title: 'Can I request specific topics to be covered in future blog articles?',
+      description: 'Absolutely! We value user feedback and suggestions. If you have specific mental health topics you would like to see covered in our blog, you can reach out to us, and we will consider them for future content.',
     },
   ],
 };
 
-// FAQS3 data
+// FAQS3 data (Mental Health Hub FAQs)
 export const faqs3Data: FAQsProps = {
   header: {
-    title: 'Pricing FAQs',
-    subtitle: 'Do you have other questions?',
-    // highlight: 'FAQS',
+    title: 'Frequently Asked Questions',
+    subtitle: 'Do you have other questions about the Mental Health Hub?',
     position: 'left',
   },
   items: [
     {
-      title: 'Which plan is best for me?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'What services does the Mental Health Hub provide?',
+      description: `The Mental Health Hub offers a wide range of mental health services, including individual counseling, group therapy, psychiatric evaluations, crisis intervention, and educational workshops on various mental health topics.`,
     },
     {
-      title: 'What are my payment options?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      title: 'How do I schedule an appointment with a mental health professional?',
+      description: `To schedule an appointment, simply visit our website and click on the "Appointments" section. You can choose from a list of available mental health professionals and select a date and time that suits you best.`,
     },
     {
-      title: 'How do I change my plan to a different one?',
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      title: 'Are the services at the Mental Health Hub confidential?',
+      description: `Yes, we prioritize the confidentiality and privacy of our clients. All interactions and discussions with our mental health professionals are kept strictly confidential, following ethical and legal guidelines.`,
     },
     {
-      title: 'What happen at the end of my free trial?',
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      title: 'What types of mental health issues does the Mental Health Hub address?',
+      description: `The Mental Health Hub provides support for a wide range of mental health concerns, including anxiety, depression, stress management, relationship issues, grief, trauma, and more. Our team of professionals is well-equipped to address various mental health challenges.`,
     },
     {
-      title: 'Can I import data from other tools?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+      title: 'Is the Mental Health Hub suitable for children and adolescents?',
+      description: `Yes, we offer specialized services for children and adolescents, including child counseling and play therapy. Our professionals have expertise in working with young individuals to provide age-appropriate and effective mental health care.`,
     },
     {
-      title: 'Can I cancel my plan at any time?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      title: 'What if I need immediate assistance or in a crisis?',
+      description: `If you are experiencing a mental health crisis or need immediate assistance, please call the emergency helpline provided on our website or visit your nearest emergency room. Our team is also available for crisis intervention during regular business hours.`,
+    },
+    {
+      title: 'Do you accept insurance for mental health services?',
+      description: `Yes, we accept insurance from various providers. Please check our website for a list of accepted insurance plans or contact our billing department for more information.`,
+    },
+    {
+      title: 'Can I switch to a different mental health professional if needed?',
+      description: `If you feel that your current mental health professional is not the right fit for you, we understand. You have the option to request a change and work with a different professional who better aligns with your needs and preferences.`,
     },
   ],
   callToAction: {
@@ -284,123 +302,87 @@ export const faqs3Data: FAQsProps = {
   },
 };
 
-// FAQS4 data
-// Updated FAQs data
+// FAQS4 data (Mental Health Hub Testimonials)
 export const faqs4Data: FAQsProps = {
   header: {
-    title: 'Frequently Asked Questions',
+    title: 'Testimonials',
     subtitle:
-      'Here are some common questions and answers to help you better understand Educate! and our mission to empower children through education.',
-    highlight: 'FAQS',
+      'Hear what our clients have to say about their experiences with the Mental Health Hub.',
     position: 'center',
   },
   tabs: [
     {
       link: {
-        label: 'General',
+        label: 'Counseling Services',
         href: '/tab1',
       },
       items: [
         {
-          title: 'What is Educate!?',
+          title: 'Life-Changing Support',
           description:
-            'Educate! is a non-profit organization dedicated to providing a rich and interactive learning experience for children. We aim to inspire, educate, and empower young minds by offering curated educational content and personalized learning paths.',
+            'The counseling services at the Mental Health Hub have been life-changing for me. The therapist I worked with was compassionate, understanding, and provided valuable insights that helped me navigate through difficult times.',
         },
         {
-          title: 'How can I contribute to Educate!?',
+          title: 'Safe and Comforting Environment',
           description:
-            'You can support our mission by donating directly to provide access to quality education for underprivileged children. We also welcome volunteers and partnerships with like-minded organizations to expand our reach.',
+            'I always felt safe and supported during my therapy sessions at the Mental Health Hub. The environment is comforting, and the staff is welcoming. It made discussing my mental health concerns much easier.',
         },
         {
-          title: 'How does Educate! make education accessible to underprivileged children?',
+          title: 'Empowering and Insightful Workshops',
           description:
-            'For every subscription to our educational platform, we sponsor a child in need, ensuring that more children have access to quality learning resources and opportunities.',
-        },
-        {
-          title: 'Who are the educators and mentors at Educate!?',
-          description:
-            'Our team consists of experienced and dedicated educators and mentors who are passionate about nurturing the talents and creativity of every child. They create engaging content and support personalized learning journeys.',
-        },
-        {
-          title: 'Can children explore subjects at their own pace?',
-          description:
-            'Yes, at Educate!, we believe in personalized learning, allowing children to explore subjects and topics at their own pace and according to their unique learning styles.',
-        },
-        {
-          title: 'How can I join the supportive learning community at Educate!?',
-          description:
-            'You can join our vibrant learning community by becoming a subscriber. Our community allows children to collaborate, share ideas, and grow together in a positive and inspiring environment.',
+            'Attending the educational workshops provided by the Mental Health Hub has been an empowering experience. The workshops cover important topics related to mental health and provide valuable tools for self-growth and resilience.',
         },
       ],
     },
     {
       link: {
-        label: 'Donations and Sponsorship',
+        label: 'Children and Adolescents',
         href: '/tab2',
       },
       items: [
         {
-          title: 'How can I donate to Educate!?',
+          title: 'Compassionate Care for My Child',
           description:
-            'Donating to Educate! is simple. Visit our website and click on the "Donate" button to contribute directly to our programs. Your donations make a meaningful impact in providing education to those in need.',
+            'I am grateful for the compassionate care my child received at the Mental Health Hub. The child counseling sessions helped my child express their emotions and cope with difficulties in a positive way.',
         },
         {
-          title: 'Is my donation tax-deductible?',
+          title: 'Effective Play Therapy',
           description:
-            'Yes, Educate! is a registered non-profit organization, and your donations are tax-deductible in accordance with local regulations. You will receive a tax receipt for your contribution.',
+            'Play therapy at the Mental Health Hub has been highly effective in helping my child open up and communicate their feelings. The play therapist connected with my child on their level, creating a nurturing therapeutic experience.',
         },
         {
-          title: 'What happens to my donation?',
+          title: 'Positive Changes in My Teenager',
           description:
-            'Your donation directly supports our educational initiatives, including sponsoring underprivileged children, developing engaging content, and providing resources for educators and mentors.',
-        },
-        {
-          title: 'Can I sponsor a specific child?',
-          description:
-            'While we don’t offer direct child sponsorship, your donation contributes to our pool of sponsored children, ensuring that each child receives equal opportunities for education and personal growth.',
-        },
-        {
-          title: 'Are there other ways to support Educate! besides donations?',
-          description:
-            'Absolutely! In addition to monetary donations, you can contribute by spreading awareness about our cause, volunteering your time and skills, or forming partnerships with Educate! to expand our reach and impact.',
-        },
-        {
-          title: 'How can organizations partner with Educate!?',
-          description:
-            'If your organization shares our vision for education and empowerment, we welcome partnerships to create a larger impact together. Please reach out to us through the contact form for more details.',
+            'Working with the mental health professionals at the Mental Health Hub has brought positive changes in my teenager. They have become more confident and better equipped to handle stress and challenges.',
         },
       ],
     },
     {
       link: {
-        label: 'Getting Started',
+        label: 'Crisis Intervention',
         href: '/tab3',
       },
       items: [
         {
-          title: 'How do I access Educate! courses and resources?',
+          title: 'Timely Support During a Crisis',
           description:
-            'All courses and educational resources at Educate! are completely free for every child. Simply visit our website, sign up for a free account, and you will have full access to our engaging learning materials.',
+            'I reached out to the Mental Health Hub during a crisis, and they provided timely and supportive intervention. The crisis counselor was understanding and helped me regain stability and hope.',
         },
         {
-          title: 'How can I get help with technical issues?',
+          title: 'Caring and Professional Team',
           description:
-            'If you encounter any technical issues or need assistance while using our platform, you can reach out to our friendly support team through the contact form, and they will be happy to assist you.',
+            'The mental health professionals who assisted me during my crisis were caring and professional. They made sure I felt heard and offered guidance to help me cope with the difficult situation.',
         },
         {
-          title: 'Can I cancel my subscription at any time?',
+          title: 'A Place of Healing',
           description:
-            'You do not need to worry about subscription cancellations, as all content and resources are available for free. However, if you have any concerns or questions, our support team is here to help.',
-        },
-        {
-          title: 'How can I provide feedback or suggest improvements?',
-          description:
-            'We welcome feedback and suggestions from our subscribers to continually enhance our platform and learning experience. You can share your thoughts through the contact form or by reaching out to our support team.',
+            'The Mental Health Hub became a place of healing for me during a challenging time. The crisis intervention services were crucial in helping me move forward and find the strength to overcome obstacles.',
         },
       ],
     },
   ],
 };
+
 
 // CallToAction data
 export const callToActionData: CallToActionProps = {
@@ -419,155 +401,155 @@ export const callToActionData2: CallToActionProps = {
   },
 };
 
-// Feature data
+// Feature data for the Mental Health Hub
 export const featuresData: FeaturesProps = {
   header: {
-  title: (
-  <>
-  What you get with <span className="whitespace-nowrap">Educate!</span>
-  </>
-  ),
-  subtitle:
-  'Explore the exciting features of Educate! that provide a seamless learning experience for students and educators alike.',
-  highlight: 'Features',
+    title: (
+      <>
+        What you get with <span className="whitespace-nowrap">Mental Health Hub</span>
+      </>
+    ),
+    subtitle:
+      'Explore the exciting features of the Mental Health Hub that provide a holistic and supportive mental health experience.',
+    highlight: 'Features',
   },
   items: [
-  {
-  title: 'Comprehensive Course Material',
-  description:
-  'Access a wide range of course materials, including lectures, readings, quizzes, and assignments, to enhance your learning journey.',
-  icon: IconArrowDown,
-  link: {
-  label: 'Learn more',
-  href: '/courses',
-  },
-  },
-  {
-  title: 'Interactive Learning Widgets',
-  description:
-  'Engage in interactive learning with our widgets that make studying enjoyable and foster a deeper understanding of the subjects.',
-  icon: IconArrowDown,
-  link: {
-  label: 'Explore now',
-  href: '/widgets',
-  },
-  },
-  {
-  title: 'Real-Time Progress Tracking',
-  description:
-  'Stay on top of your progress with real-time tracking and performance analytics. Identify areas for improvement and excel in your studies.',
-  icon: IconArrowDown,
-  link: {
-  label: 'Check progress',
-  href: '/progress',
-  },
-  },
-  {
-  title: 'Collaborative Study Groups',
-  description:
-  'Connect with your peers and form study groups to share knowledge, discuss topics, and work together on group assignments.',
-  icon: IconArrowDown,
-  link: {
-  label: 'Join a group',
-  href: '/groups',
-  },
-  },
-  {
-  title: 'Expert Instructor Support',
-  description:
-  'Get personalized guidance and support from expert instructors who are passionate about helping you succeed in your academic journey.',
-  icon: IconArrowDown,
-  link: {
-  label: 'Meet instructors',
-  href: '/instructors',
-  },
-  },
-  {
-  title: 'Community Forums',
-  description:
-  'Participate in vibrant community forums where you can seek advice, share insights, and engage in discussions with like-minded learners.',
-  icon: IconArrowDown,
-  link: {
-  label: 'Join forums',
-  href: '/forums',
-  },
-  },
+    {
+      title: 'Professional Counseling Services',
+      description:
+        'Access a wide range of professional counseling services, including individual therapy, group therapy, and specialized counseling for children and adolescents.',
+      icon: IconArrowDown,
+      link: {
+        label: 'Learn more',
+        href: '/counseling',
+      },
+    },
+    {
+      title: 'Interactive Workshops and Webinars',
+      description:
+        'Participate in interactive workshops and webinars conducted by mental health experts to gain insights, coping strategies, and self-care practices.',
+      icon: IconArrowDown,
+      link: {
+        label: 'Explore now',
+        href: '/workshops',
+      },
+    },
+    {
+      title: 'Crisis Intervention and Support',
+      description:
+        'Receive immediate support during mental health crises through our 24/7 helpline and crisis intervention services.',
+      icon: IconArrowDown,
+      link: {
+        label: 'Get help',
+        href: '/crisis-support',
+      },
+    },
+    {
+      title: 'Personalized Treatment Plans',
+      description:
+        'Benefit from personalized treatment plans designed by our experienced mental health professionals to address your unique needs and goals.',
+      icon: IconArrowDown,
+      link: {
+        label: 'Learn more',
+        href: '/treatment-plans',
+      },
+    },
+    {
+      title: 'Community Support Groups',
+      description:
+        'Connect with others facing similar mental health challenges through our community support groups and find comfort in shared experiences.',
+      icon: IconArrowDown,
+      link: {
+        label: 'Join a group',
+        href: '/support-groups',
+      },
+    },
+    {
+      title: 'Online Self-Help Resources',
+      description:
+        'Access a variety of self-help resources, including articles, videos, and guided exercises, to promote mental well-being and personal growth.',
+      icon: IconArrowDown,
+      link: {
+        label: 'Explore resources',
+        href: '/self-help',
+      },
+    },
   ],
-  };
-  
-  // Feature2 data
-  export const featuresData2: FeaturesProps = {
+};
+
+// Feature2 data for the Mental Health Hub
+export const featuresData2: FeaturesProps = {
   header: {
-  title: 'Support Center',
-  subtitle: 'Looking for assistance or have questions? Our support team is here to help!',
+    title: 'Support Center',
+    subtitle: 'Looking for assistance or have questions? Our support team is here to help!',
   },
   items: [
-  {
-  title: 'Frequently Asked Questions',
-  description: 'Find answers to common questions in our comprehensive FAQ section.',
-  icon: IconHelp,
-  link: {
-  href: '/faqs',
-  },
-  },
-  {
-  title: 'Live Chat Support',
-  description: 'Chat with our support team in real-time for immediate assistance.',
-  icon: IconMessages,
-  link: {
-  href: '/',
-  },
-  },
-  {
-  title: '24/7 Helpline',
-  description: 'Get round-the-clock support from our dedicated helpline.',
-  icon: IconHeadset,
-  link: {
-  href: '/',
-  },
-  },
+    {
+      title: 'Frequently Asked Questions',
+      description: 'Find answers to common questions in our comprehensive FAQ section.',
+      icon: IconHelp,
+      link: {
+        href: '/faqs',
+      },
+    },
+    {
+      title: 'Live Chat Support',
+      description: 'Chat with our support team in real-time for immediate assistance.',
+      icon: IconMessages,
+      link: {
+        href: '/live-chat',
+      },
+    },
+    {
+      title: '24/7 Helpline',
+      description: 'Get round-the-clock support from our dedicated helpline.',
+      icon: IconHeadset,
+      link: {
+        href: '/helpline',
+      },
+    },
   ],
-  };
-  
-  // Feature data 3
-  export const featuresData3: FeaturesProps = {
+};
+
+// Feature data 3 for the Mental Health Hub
+export const featuresData3: FeaturesProps = {
   header: {
-  title: 'Services',
+    title: 'Additional Services',
   },
   items: [
-  {
-  title: 'Comprehensive Course Material',
-  description: 'Access a wide range of course materials to enhance your learning experience.',
-  icon: IconArrowDown,
-  },
-  {
-  title: 'Interactive Learning Widgets',
-  description: 'Engage in interactive learning with our widgets for a better grasp of subjects.',
-  icon: IconArrowDown,
-  },
-  {
-  title: 'Real-Time Progress Tracking',
-  description: 'Stay updated on your progress with real-time tracking and analytics.',
-  icon: IconArrowDown,
-  },
-  {
-  title: 'Collaborative Study Groups',
-  description: 'Form study groups and collaborate with peers on group assignments.',
-  icon: IconArrowDown,
-  },
-  {
-  title: 'Expert Instructor Support',
-  description: 'Receive personalized guidance and support from our expert instructors.',
-  icon: IconArrowDown,
-  },
-  {
-  title: 'Community Forums',
-  description: 'Engage in vibrant community forums to seek advice and share insights.',
-  icon: IconArrowDown,
-  },
+    {
+      title: 'Online Workshops and Events',
+      description: 'Participate in a variety of online workshops and events on mental health topics and self-care practices.',
+      icon: IconArrowDown,
+    },
+    {
+      title: 'Mental Health Education',
+      description: 'Access educational resources and articles to deepen your understanding of mental health and well-being.',
+      icon: IconArrowDown,
+    },
+    {
+      title: 'Telehealth Services',
+      description: 'Connect with mental health professionals remotely through secure and confidential telehealth appointments.',
+      icon: IconArrowDown,
+    },
+    {
+      title: 'Crisis Prevention Planning',
+      description: 'Work with our experts to create a personalized crisis prevention plan to manage potential mental health crises.',
+      icon: IconArrowDown,
+    },
+    {
+      title: 'Parent and Caregiver Support',
+      description: 'Receive guidance and support for parents and caregivers of individuals dealing with mental health challenges.',
+      icon: IconArrowDown,
+    },
+    {
+      title: 'Wellness Assessments',
+      description: 'Assess your mental well-being and track your progress on the journey to better mental health and happiness.',
+      icon: IconArrowDown,
+    },
   ],
-  };
-  
+};
+
   // Content data
   export const contentData: ContentProps = {
   header: {
