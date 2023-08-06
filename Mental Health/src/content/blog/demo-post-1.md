@@ -7,7 +7,7 @@ image: 'https://source.unsplash.com/random/1024x640/?vintage+travel'
 tags: [markdown, blog]
 ---
 
-## <a name="Introduction"></a>Introduction
+## <a name="Introduction"></a>Introductionr
 
 In today's rapidly advancing world, technology has become an integral part of every aspect of our lives, including education. The transformative potential of technology in the educational landscape is immense, especially in bridging the digital divide and providing access to quality education for children in third-world countries. In this blog, we explore the role of technology in education and its impact on empowering students in underserved communities.
 
