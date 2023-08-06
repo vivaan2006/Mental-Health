@@ -3,7 +3,7 @@ publishDate: 'Aug 05 2023'
 title: 'Spotting the Signs: Recognizing Mental Health Issues in Loved Ones'
 description: 'Lorem ipsum dolor sit amet'
 excerpt: 'Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat'
-image: 'https://images.unsplash.com/photo-1604881991720-f91add269bed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80'
+image: 'https://source.unsplash.com/random/1024x640/?vintage+camera'
 tags: [markdown, blog]
 ---
 
