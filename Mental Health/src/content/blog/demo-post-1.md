@@ -3,7 +3,7 @@ publishDate: 'Aug 05 2022'
 title: 'Understanding Different Mental Health Disorders: A Comprehensive Guide'
 description: 'Lorem ipsum dolor sit amet'
 excerpt: 'Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat'
-image: 'https://source.unsplash.com/random/1024x640/?vintage+travel'
+image: 'https://images.unsplash.com/photo-1581333100576-b73befd79a9b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80'
 tags: [markdown, blog]
 ---
 
