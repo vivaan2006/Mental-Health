@@ -43,10 +43,11 @@ import {
 } from './types';
 
 import cameraFrontImg from '~/assets/images/camera-front.webp';
-import cameraBackImg from '~/assets/images/camera-back.webp';
-import heroImg from '~/assets/images/hero.webp';
-import hero2Img from '~/assets/images/hero2.jpg';
-import gasImg from '~/assets/images/gas.jpg';
+import cameraBackImg from '~/assets/images/mentalhome2.avif';
+import heroImg from '~/assets/images/hero.jpeg';
+import hero2Img from '~/assets/images/hero2.png';
+import gasImg from '~/assets/images/gasimg.webp';
+import gasfront from '~/assets/images/gasfront.avif';
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
@@ -603,7 +604,7 @@ export const content2Data: ContentProps = {
     },
   ],
   image: {
-    src: gasImg,
+    src: cameraBackImg,
     alt: 'Online Learning Image',
   },
   isReversed: true,
@@ -638,7 +639,7 @@ export const stepsData: StepsProps = {
     },
   ],
   image: {
-    src: gasImg,
+    src: gasfront,
     alt: 'Steps image',
   },
 };
