@@ -550,88 +550,90 @@ export const featuresData3: FeaturesProps = {
   ],
 };
 
-  // Content data
-  export const contentData: ContentProps = {
+// Content data for the Mental Health Hub
+export const contentData: ContentProps = {
   header: {
-  title: 'Discover the World of Educate!',
-  subtitle: 'Experience a new way of learning with our innovative platform.',
-  highlight: 'Content',
+    title: 'Welcome to the Mental Health Hub',
+    subtitle: 'Explore a holistic approach to mental well-being and find support for your mental health journey.',
+    highlight: 'Content',
   },
   content:
-  'Embark on an enriching educational journey with Educate! Our platform offers a wide array of features and services to make learning enjoyable, interactive, and rewarding. Explore the world of knowledge with us!',
+    'Embark on a journey of mental well-being with the Mental Health Hub. Our platform offers a comprehensive range of features and services to support individuals dealing with mental health challenges. Discover a nurturing environment where you can seek guidance, connect with others, and promote your mental health!',
   items: [
-  {
-  title: 'Personalized Learning',
-  description:
-  'Receive personalized learning paths tailored to your individual needs and learning pace.',
-  },
-  {
-  title: 'Hands-On Projects',
-  description:
-  'Gain practical experience and develop essential skills through hands-on projects and simulations.',
-  },
-  {
-  title: 'Collaborative Environment',
-  description:
-  'Connect and collaborate with learners from diverse backgrounds, fostering a rich learning experience.',
-  },
+    {
+      title: 'Professional Counseling Services',
+      description:
+        'Receive personalized counseling sessions with licensed mental health professionals to address your unique needs and concerns.',
+    },
+    {
+      title: 'Crisis Intervention and Support',
+      description:
+        'Access immediate support and intervention services during mental health crises through our dedicated 24/7 helpline and crisis support team.',
+    },
+    {
+      title: 'Community Support Groups',
+      description:
+        'Connect with others facing similar mental health challenges through our support groups, where you can share experiences and find solidarity.',
+    },
   ],
   image: {
-  src: cameraFrontImg,
-  alt: 'Educational Image',
+    src: gasImg,
+    alt: 'Mental Health Image',
   },
   isReversed: false,
   isAfterContent: false,
-  };
-  
-  // Content2 data
-  export const content2Data: ContentProps = {
+};
+
+// Content2 data for the Mental Health Hub
+export const content2Data: ContentProps = {
   content:
-  'Experience a new world of knowledge with Educate! Our platform offers an immersive and interactive learning environment where you can discover, learn, and grow. Join us on this journey today!',
+    'Experience a holistic and supportive environment with the Mental Health Hub. Our platform offers an immersive learning experience focused on enhancing mental well-being and personal growth. Join us on this transformative journey today!',
   items: [
-  {
-  title: 'Live Webinars',
-  description: 'Participate in live webinars hosted by industry experts and renowned educators.',
-  },
-  {
-  title: 'Skill Badges',
-  description: 'Earn skill badges and certifications to showcase your expertise.',
-  },
-  {
-  title: 'Career Guidance',
-  description: 'Access career guidance and support to excel in your professional journey.',
-  },
+    {
+      title: 'Interactive Workshops and Webinars',
+      description: 'Participate in interactive workshops and webinars conducted by mental health experts to gain insights, coping strategies, and self-care practices.',
+    },
+    {
+      title: 'Personalized Treatment Plans',
+      description: 'Receive personalized treatment plans designed by our experienced mental health professionals to address your unique needs and goals.',
+    },
+    {
+      title: 'Online Self-Help Resources',
+      description: 'Access a variety of self-help resources, including articles, videos, and guided exercises, to promote mental well-being and personal growth.',
+    },
   ],
   image: {
-  src: cameraBackImg,
-  alt: 'Online Learning Image',
+    src: gasImg,
+    alt: 'Online Learning Image',
   },
   isReversed: true,
   isAfterContent: true,
-  };
-  
-  
-// Steps data
+};
+
+// Steps data for the Mental Health Hub
 export const stepsData: StepsProps = {
-  title: 'How Educate Works?',
+  title: 'Our 3-Step Mental Health Support Plan',
   items: [
     {
       title: 'Step 1',
-      description: '"Educate" conducts a thorough evaluation to identify regions and communities in underserved areas that require educational support the most. Factors such as socio-economic conditions and limited access to formal education guide the selection process, ensuring focused efforts where the impact can be profound.',
+      description:
+        'Our mental health professionals conduct a comprehensive evaluation to understand your unique challenges and needs. We prioritize regions and communities in underserved areas to ensure focused efforts where the impact can be profound.',
       icon: IconArrowDown,
     },
     {
       title: 'Step 2',
-      description: '"Educate" initiates a donation program to offer technology resources, such as educational apps and devices, to underserved communities. This discreet program aims to bridge the digital divide, empowering children in need with valuable tools for learning and growth.',
+      description:
+        'We provide a discreet program to offer mental health resources and support, including access to counseling, crisis intervention services, and community support groups.',
       icon: IconArrowDown,
     },
     {
       title: 'Step 3',
-      description: '"Educate" implements an innovative training approach for teachers and students, utilizing technology-driven tools and resources to enhance their skills and knowledge. This discreet and secure method ensures that participants can benefit from a personalized learning experience',
+      description:
+        'Through innovative workshops and personalized treatment plans, we empower you with coping strategies, self-care practices, and skills to enhance your mental well-being and overall quality of life.',
       icon: IconArrowDown,
     },
     {
-      title: 'Ready!',
+      title: 'Ready to Begin Your Journey!',
       icon: IconCheck,
     },
   ],
@@ -640,6 +642,7 @@ export const stepsData: StepsProps = {
     alt: 'Steps image',
   },
 };
+
 
 // Team data
 export const teamData: TeamProps = {
@@ -721,104 +724,159 @@ export const teamData: TeamProps = {
   ],
 };
 
-// Testimonial data
+// Testimonial data with quotes about mental health
 export const testimonialData: TestimonialProps = {
   header: {
-    title: 'Why expanding education is important?',
+    title: 'Why Mental Health Help Matters?',
     subtitle: '',
-    // highlight: 'Testimonial',
   },
   testimonials: [
     {
-      name: 'Malala Yousafzai',
-      occupation: 'Pakistani Female Education Activist',
-      comment: 'One child, one teacher, one pen and one book can change the world.',
+      name: 'Demi Lovato',
+      occupation: 'Singer and Mental Health Advocate',
+      comment: 'Healing is an ongoing process, and it doesn’t have a deadline. Be patient with yourself as you work through this journey.',
       image: {
-        src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+        src: 'https://images.unsplash.com/photo-1551011933-050c55a5d1d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: '',
       },
       icon: IconBrandTwitter,
       href: '#',
     },
     {
-      name: 'Malcolm X',
-      occupation: 'American Human Rights Activist',
-      comment: 'Education is the passport to the future, for tomorrow belongs to those who prepare for it today.',
+      name: 'Mental Health Foundation',
+      occupation: 'Mental Health Charity',
+      comment: 'Mental health is not a destination but a process. It’s about how you drive, not where you’re going.',
       image: {
-        src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+        src: 'https://images.unsplash.com/photo-1551810419-7bc7df24a60b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: '',
       },
       icon: IconBrandTwitter,
       href: '#',
     },
     {
-      name: 'Nelson Mandela',
-      occupation: 'First President of South Africa',
-      comment: 'Education is the most powerful weapon you can use to change the world.',
+      name: 'Stephen Fry',
+      occupation: 'Actor and Comedian',
+      comment: 'Its is hard to be a friend to someone who is depressed, but it is one of the kindest, noblest, and best things you will ever do.',
       image: {
-        src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+        src: 'https://images.unsplash.com/photo-1502802721060-c385a7fdb1ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: '',
       },
       icon: IconBrandTwitter,
       href: '#',
+    },
+
+  ],
+};
+
+
+// Pricing data for the Mental Health Hub
+export const pricingData: PricingProps = {
+  header: {
+    title: 'Mental Health Hub Membership',
+    subtitle: 'Join our Mental Health Hub and access resources for mental well-being.',
+  },
+  prices: [
+    {
+      title: 'Free Membership',
+      value: 0,
+      period: 'Lifetime Access',
+      texts: [
+        'Access to a wide range of mental health resources and articles',
+        'Guided meditation and relaxation exercises',
+        'Community forums for support and discussions',
+        'Self-assessment tools and mental health quizzes',
+      ],
+      callToAction: {
+        text: 'Join for Free',
+        href: '/signup',
+      },
+      hasRibbon: false,
+    },
+    {
+      title: 'Premium Membership',
+      value: 19.99,
+      period: 'per month',
+      texts: [
+        'All features from the Free Membership',
+        'Unlimited access to therapy sessions with licensed professionals',
+        'Personalized mental health plans and goal tracking',
+        'Exclusive webinars and workshops on mental well-being',
+      ],
+      callToAction: {
+        text: 'Upgrade to Premium',
+        href: '/premium',
+      },
+      hasRibbon: true,
+      ribbonTitle: 'Recommended',
+    },
+    {
+      title: 'Family Membership',
+      value: 29.99,
+      period: 'per month',
+      texts: [
+        'All features from Premium Membership',
+        'Additional accounts for family members',
+        'Access to group therapy sessions',
+        'Family goal tracking and progress reports',
+      ],
+      callToAction: {
+        text: 'Get Family Plan',
+        href: '/family',
+      },
+      hasRibbon: false,
+    },
+    {
+      title: 'Student Membership',
+      value: 9.99,
+      period: 'per month',
+      texts: [
+        'Access to essential mental health resources',
+        'Discounted therapy sessions with licensed professionals',
+        'Student support groups and peer counseling',
+        'Study and exam stress management workshops',
+      ],
+      callToAction: {
+        text: 'Join as Student',
+        href: '/student',
+      },
+      hasRibbon: false,
+    },
+    {
+      title: 'Business Membership',
+      value: 49.99,
+      period: 'per user per month',
+      texts: [
+        'Customized mental health programs for employees',
+        'Workplace wellness seminars and training',
+        'Managerial support for employee well-being',
+        'Dedicated account manager and reporting',
+      ],
+      callToAction: {
+        text: 'Enroll as Business',
+        href: '/business',
+      },
+      hasRibbon: false,
+    },
+    {
+      title: 'Therapist Membership',
+      value: 39.99,
+      period: 'per month',
+      texts: [
+        'Access to a network of clients seeking therapy',
+        'Online scheduling and appointment management',
+        'Secure video conferencing platform for sessions',
+        'Therapist profile and reviews',
+      ],
+      callToAction: {
+        text: 'Join as Therapist',
+        href: '/therapist',
+      },
+      hasRibbon: false,
     },
   ],
 };
 
-// Pricing data
-export const pricingData: PricingProps = {
-  header: {
-    title: 'Educate\'s Core Curriculum',
-    subtitle: '',
-    // highlight: 'Pricing',
-  },
-  prices: [
-    {
-      title: 'Elementary',
-      value: 0,
-      period: 'Grades K - 6',
-      texts: [
-        'Available in English and Spanish',
-        'Core subjects in Math, Science, History, and English',
-        'Videos and virtual assignments and live progress tracking',
-        'Content from Kindergarten to Grade 6',
-      ],
-      callToAction: {
-        text: 'Enroll in Elementary School',
-        href: '/',
-      },
-      hasRibbon: false,
-    },
-    {
-      title: 'Middle',
-      value: 0,
-      period: 'Grades 7 - 8',
-      texts: ['Available in English and Spanish', 'Core subjects in Math, Science, History, and English', 'Videos, virutal assignments, and discussion forum for dynamic learning environment', 'Content from Grade 7 to Grade 8'],
-      callToAction: {
-        text: 'Enroll in Middle School',
-        href: '/',
-      },
-      hasRibbon: false,
-      ribbonTitle: '',
-    },
-    {
-      title: 'High',
-      value: 0,
-      period: 'Grade 9 - 12',
-      texts: [
-        'Available in English and Spanish',
-        'Core subjects in Math, Science, History, and English',
-        'Videos, virtual assignments, discussion forums, and college counseling for interactive learning experience',
-        'Content from Grade 9 to Grade 12',
-      ],
-      callToAction: {
-        text: 'Enroll in High School',
-        href: '/',
-      },
-      hasRibbon: false,
-    },
-  ],
-};
+
 
 // Comparison data
 export const comparisonData: ComparisonProps = {
