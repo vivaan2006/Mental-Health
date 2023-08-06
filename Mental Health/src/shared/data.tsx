@@ -951,7 +951,7 @@ export const contactData: ContactProps = {
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (801) 897-6896', 'Email: contact@educate.org'],
+      description: ['Mobile: +1 (801) 897-6896', 'Email: contact@Mental Health Hub.org'],
       icon: IconPhoneCall,
     },
     {
@@ -1073,7 +1073,7 @@ export const contact2Data: ContactProps = {
         value: '',
       },
       {
-        label: 'Please subscribe me to the Educate! newsletter for updates.',
+        label: 'Please subscribe me to the Mental Health Hub newsletter for updates.',
         value: '',
       },
     ],
@@ -1086,7 +1086,7 @@ export const contact2Data: ContactProps = {
 
 // Footer data
 export const footerData: FooterProps = {
-  title: 'Educate!',
+  title: 'Mental Health Hub',
   links: [
     {
       label: 'Terms & Conditions',
@@ -1216,7 +1216,7 @@ export const footerData: FooterProps = {
       Made by{' '}
       <a className="text-blue-600 hover:underline dark:text-gray-200" href="">
         {' '}
-        Educate!
+        Mental Health Hub
       </a>{' '}
       · All rights reserved.
     </div>
@@ -1261,7 +1261,7 @@ export const footerData2: FooterProps = {
       Made by{' '}
       <a className="text-blue-600 hover:underline dark:text-gray-200">
         {' '}
-        Educate!
+        Mental Health Hub
       </a>{' '}
       · All rights reserved.
     </div>

@@ -1,10 +1,8 @@
 module.exports.SITE = {
-  name: 'Educate!',
-
-  origin: 'https://educate.vercel.app',
+  name: 'Mental Health Hub!',
+  origin: 'https://mentalhealthhub.com',
   basePathname: '/',
   trailingSlash: false,
-
-  title: 'Educate! — Empowering Young Minds with Knowledge',
-  description: 'Educate! is a free platform that empowers children with interactive learning experiences and curated educational content.',
+  title: 'Mental Health Hub - Your Source for Mental Well-being',
+  description: 'Join our Mental Health Hub and access resources to improve your mental well-being. Discover tools for self-care, guided meditation, therapy sessions, and support forums.',
 };
