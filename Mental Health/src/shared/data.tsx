@@ -993,7 +993,7 @@ export const contactData: ContactProps = {
 export const contact2Data: ContactProps = {
   header: {
     title: 'Get in Touch',
-    subtitle: 'Inspire, Educate, and Empower',
+    subtitle: 'Inspire, Mediate, and Empower',
     highlight: 'Contact',
   },
   content:
@@ -1006,7 +1006,7 @@ export const contact2Data: ContactProps = {
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Email: info@educate.org'],
+      description: ['Mobile: +1 (123) 456-7890', 'Email: info@thementalhealthhub.org'],
       icon: IconPhoneCall,
     },
     {
@@ -1208,7 +1208,7 @@ export const footerData: FooterProps = {
     { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
     { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
     { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/vivaan2006/Educate_Website' },
+    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com' },
   ],
   footNote: (
     <div className="mr-4 text-sm dark:text-slate-400">
@@ -1246,7 +1246,7 @@ export const footerData2: FooterProps = {
     },
     {
       title: 'Email',
-      texts: ['Office: educate@gmail.com', ''],
+      texts: ['Office: mentalhealthhub@gmail.com', ''],
     },
   ],
   socials: [
