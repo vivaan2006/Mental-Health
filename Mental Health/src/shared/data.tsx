@@ -50,16 +50,17 @@ import gasImg from '~/assets/images/gas.jpg';
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
-  title: 'Our Donation system is now fully implemented! Your donation makes a big difference !',
+  title: '24/7 Mental Health Helpline Available! Call us anytime for assistance.',
   callToAction: {
-    text: '',
+    text: 'Learn More',
     href: '',
   },
   callToAction2: {
-    text: '',
+    text: 'Read Blog',
     href: '',
   },
 };
+
 
 // Header data
 export const headerData: HeaderProps = {
@@ -117,19 +118,19 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      Welcome to <span className="font-semibold">Educate!</span>
-      <span className="hidden md:inline"> - Empowering Education for All</span>
+      Welcome to <span className="font-semibold">Mental Health Resources!</span>
+      <span className="hidden md:inline"> - Empowering Minds for Better Mental Health</span>
     </>
   ),
   subtitle: (
     <>
-      Educate! is a platform committed to providing educational resources for students in less fortunate regions, from kindergarten to 12th grade. Our mission is to empower young minds with knowledge and opportunities.
+      Mental Health Resources is a platform committed to providing resources and support for mental health. Our mission is to empower individuals with knowledge and tools to improve their mental well-being.
     </>
   ),
   callToAction: {
-    text: 'Donate Books',
+    text: 'Donate Now',
     href: '/donate',
-    icon: IconDownload,
+    icon: IconBrandTailwind, // Replace with a relevant icon for mental health donation
     targetBlank: false,
     btnType: 'primary',
   },
@@ -139,28 +140,28 @@ export const heroData: HeroProps = {
   },
   image: {
     src: heroImg,
-    alt: 'Educational Books',
+    alt: 'Mental Health Resources',
   },
 };
 
 // Hero2 data
 export const hero2Data: HeroProps = {
-  title: 'Empowering Minds Through Books',
+  title: 'Empowering Minds Through Mental Health Support',
   subtitle:
-    'Educate! believes that every child deserves access to quality education. By donating books, you can make a difference in the lives of students in less fortunate regions. Together, let\'s create a brighter future for our young generation.',
+    'Mental Health Resources believes that everyone deserves access to mental health resources and support. By contributing to our cause, you can make a difference in the lives of individuals facing mental health challenges. Together, let\'s create a healthier and happier future for all.',
   callToAction: {
-    text: 'Donate Books Now',
+    text: 'Donate Now',
     href: '/donate',
     targetBlank: false,
     btnType: 'primary',
   },
   callToAction2: {
     text: 'Contact Us',
-    href: '/research',
+    href: '/contact',
   },
   image: {
     src: hero2Img,
-    alt: 'Educational Books',
+    alt: 'Mental Health Support',
   },
 };
 
